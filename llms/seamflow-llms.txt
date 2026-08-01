@@ -1,0 +1,19 @@
+# Seamflow
+
+> Seamflow builds AI-native software for the Testing, Inspection, and Certification (TIC) industry, automating end-to-end regulatory certification workflows for notified bodies and certification organizations while keeping human oversight and accreditation compliance intact.
+
+Seamflow's platform covers four core products: the Notified Body Suite (intake-to-certificate workflow management), Scheduling Agents (automated auditor assignment and travel optimization), Tech File Review (structured technical-documentation assessment against regulatory requirements), and Report Writing (AI-assisted drafting of compliance reports). It is an early-stage enterprise-SaaS company ($4.5M seed) backed by Initialized Capital and Northzone. As of this writing Seamflow publishes no public API, developer portal, SDKs, or OpenAPI specification; this entry indexes its public company surface.
+
+## Company
+- Website: https://www.seamflow.com/
+- Trust Center: https://trust.seamflow.com/
+- Contact: https://www.seamflow.com/contact
+- LinkedIn: https://www.linkedin.com/company/seamflow/
+- Careers: https://jobs.ashbyhq.com/seamflow
+
+## Network profile
+- APIs.json: https://raw.githubusercontent.com/api-evangelist/seamflow/refs/heads/main/apis.yml
+
+## Artifacts
+- Domain security probe: security/seamflow-domain-security.yml
+- Trust center: security/seamflow-trust-center.yml

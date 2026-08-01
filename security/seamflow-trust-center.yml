@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.seamflow.com/
+probe: true
+url: https://trust.seamflow.com/
+platform: Vanta
+certifications: []
+notes: >-
+  Seamflow operates a dedicated Trust Center at trust.seamflow.com, hosted on the
+  Vanta trust-management platform (confirmed via the served signature-manifest and
+  Vanta backend markers). The named certification/framework list is rendered
+  client-side (JavaScript SPA) and could not be enumerated verbatim from a static
+  fetch, so certifications are left empty rather than guessed. The Trust Center
+  itself is verified present and dedicated to this company.
+evidence:
+  - source: https://trust.seamflow.com/
+    kind: trust-center
+    detail: dedicated trust subdomain served by Vanta (assets.vanta.com signature manifest)

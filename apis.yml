@@ -1,8 +1,29 @@
 aid: seamflow
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/seamflow.png
 name: Seamflow
-description: 'Seamflow is a company surfaced as a portfolio company of initialized-capital, northzone
-  and added to the API Evangelist network as a stub for enrichment. Sector: enterprise-saas. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: >-
+  Seamflow builds AI-native software for the Testing, Inspection, and Certification
+  (TIC) industry, automating end-to-end regulatory certification workflows for
+  notified bodies and certification organizations while preserving human oversight
+  and accreditation compliance. Its platform spans four core products: the Notified
+  Body Suite (intake-to-certificate workflow management), Scheduling Agents
+  (automated auditor assignment and travel optimization), Tech File Review
+  (structured technical-documentation assessment against regulatory requirements),
+  and Report Writing (AI-assisted drafting of compliance reports). Seamflow is an
+  early-stage enterprise-SaaS company ($4.5M seed) backed by Initialized Capital and
+  Northzone. As of this profile it publishes no public API, developer portal, SDKs,
+  or OpenAPI specification; this record captures its verified public company surface.
 url: https://raw.githubusercontent.com/api-evangelist/seamflow/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +34,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Enterprise Saas
+- Artificial Intelligence
+- Compliance
+- Certification
+- Regulatory
+- Testing Inspection Certification
+- Workflow Automation
+- Medical Devices
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.seamflow.com/
+- type: TrustCenter
+  url: security/seamflow-trust-center.yml
+- type: DomainSecurity
+  url: security/seamflow-domain-security.yml
+- type: Support
+  url: https://www.seamflow.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/seamflow/
+- type: LLMsTxt
+  url: llms/seamflow-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
