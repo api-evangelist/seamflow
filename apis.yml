@@ -54,7 +54,7 @@ tags:
 - Certification
 - Regulatory
 - Testing Inspection Certification
-- Workflow-Automation
+- Workflow Automation
 - Medical Devices
 tags_raw:
 - Company
@@ -66,6 +66,7 @@ tags_raw:
 - Testing Inspection Certification
 - Workflow Automation
 - Medical Devices
+- Workflow-Automation
 apis: []
 maintainers:
 - FN: Kin Lane
